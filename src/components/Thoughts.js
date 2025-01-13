@@ -20,7 +20,7 @@ function Thoughts() {
                 <input type='thoughts' className='thoughts-input-field' placeholder='Your Thoughts'/>
             </div>
             <div className='submit'>
-            <button className='thoughts-submit'><a href='#'>Submit</a></button>
+            <button className='thoughts-submit'>Submit</button>
             </div>
         </div>
       
