@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -8,9 +8,9 @@ function Navbar() {
     <div>
       <nav className="navbar">
       <div className='navbar-container'>
-            <Link to="/" className="navbar-logo">
+            <div  className="navbar-logo">
                  <img src= '\Nutrition_logo333.png' alt ="Nutrition" className="logo-image" />
-            </Link>
+            </div>
 
         </div>
 
