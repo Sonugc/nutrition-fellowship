@@ -1,27 +1,26 @@
-import React from 'react'
-import './Initiatives.css'
+import React from 'react';
+import './Initiatives.css';
 
 const Initiatives = () => {
-    return (
-      <div className="initiatives-container">
-        <h2 className="initiatives-title">Initiatives</h2>
-        <div className="initiatives-list">
-          <div className="initiative-item">
-            <h3>GEN-N<br />INITIATIVES</h3>
-            <a href="/" className="click-here">Click Here</a>
-          </div>
-          <div className="initiative-item">
-            <h3>ADVOCACY <br /> AND <br />CAMPAIGNS</h3>
-            <a href="/" className="click-here">Click Here</a>
-          </div>
-          <div className="initiative-item">
-            <h3>TECHNOLOGY<br /> IN <br /> NUTRITION</h3>
-            <a href="/" className="click-here">Click Here</a>
-          </div>
-          
+  return (
+    <div className="initiatives-container">
+      <h2 className="initiatives-title">Initiatives</h2>
+      <div className="initiatives-list">
+        <div className="initiative-item">
+          <h3>GEN-N<br />INITIATIVES</h3>
+          <a href="/gen-n-initiatives" className="click-here">Click Here</a>
+        </div>
+        <div className="initiative-item">
+          <h3>ADVOCACY <br /> AND <br />CAMPAIGNS</h3>
+          <a href="/advocacy-campaigns" className="click-here">Click Here</a>
+        </div>
+        <div className="initiative-item">
+          <h3>TECHNOLOGY<br /> IN <br /> NUTRITION</h3>
+          <a href="/technology-nutrition" className="click-here">Click Here</a>
         </div>
       </div>
-    );
-  };
-  
-  export default Initiatives;
+    </div>
+  );
+};
+
+export default Initiatives;
