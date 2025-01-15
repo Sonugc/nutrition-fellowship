@@ -8,15 +8,15 @@ const Initiatives = () => {
         <div className="initiatives-list">
           <div className="initiative-item">
             <h3>GEN-N<br />INITIATIVES</h3>
-            <a href="#" className="click-here">Click Here</a>
+            <a href="/" className="click-here">Click Here</a>
           </div>
           <div className="initiative-item">
             <h3>ADVOCACY <br /> AND <br />CAMPAIGNS</h3>
-            <a href="#" className="click-here">Click Here</a>
+            <a href="/" className="click-here">Click Here</a>
           </div>
           <div className="initiative-item">
             <h3>TECHNOLOGY<br /> IN <br /> NUTRITION</h3>
-            <a href="#" className="click-here">Click Here</a>
+            <a href="/" className="click-here">Click Here</a>
           </div>
           
         </div>

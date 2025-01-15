@@ -5,7 +5,7 @@ import Vision from './components/Vision';
 import Aboutus from './components/Aboutus';
 import Repository from './components/Repository';
 import Events from './components/Events';
-import Next_event from './components/Next_Event';
+import NextEvent from './components/NextEvent';
 import Announcements from './components/Announcements';
 import  Initiatives from './components/Initiatives';
 import Thoughts from './components/Thoughts';
@@ -27,7 +27,7 @@ function App() {
                             <Aboutus/>
                             <Repository/>
                             <Events/>
-                            <Next_event/>
+                            <NextEvent/>
                             <Announcements/>
                             <Initiatives/>
                             <Thoughts/>
