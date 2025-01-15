@@ -48,6 +48,9 @@
 
   .thoughts-input-field{
     height: 50px;
+    width: 300px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
   }
   
   .thoughts-input input:focus {
@@ -80,3 +83,5 @@
   .thoughts-submit:hover {
     background-color: #1e7e34; /* Darker green on hover */
   }
+
+
