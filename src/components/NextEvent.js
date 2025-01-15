@@ -1,5 +1,5 @@
 import React from 'react';
-import './Next_event.css';
+import './NextEvent.css';
 
 const Event = ({ name, date, description }) => {
   return (
@@ -15,7 +15,7 @@ const Event = ({ name, date, description }) => {
   );
 };
 
-const Next_Event = () => {
+const NextEvent = () => {
   const events = [
     {
       name: 'Nutrition Data Camps',
@@ -54,5 +54,5 @@ const Next_Event = () => {
   );
 };
 
-export default Next_Event;
+export default NextEvent;
 
