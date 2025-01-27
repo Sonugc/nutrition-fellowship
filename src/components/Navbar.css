@@ -1,48 +1,113 @@
-.navbar{
-    height: 100px;
-    width: 100%;
-    background:linear-gradient(135deg, #bad7bc 0%, #537f53 );
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
+.navbar {
+  height: 100px;
+  width: 100%;
+  background: linear-gradient(135deg, #bad7bc 0%, #537f53);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 0 2rem;
 }
 
-.logo-image{
-    width: auto;
-    height: 110px;
-    margin-left: 2rem;
-    margin-top: 0.5rem;
-    /* background-color: aqua; */
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: auto;
+  height: 110px;
+  margin-top: 0.5rem;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.nav-items a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-items li {
+  margin: 0 2rem;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.nav-items li:hover {
+  transform: scale(1.2);
+}
+
+/* Mobile menu button */
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 968px) {
+  .navbar {
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .nav-items{
-    display: flex;
-    list-style: none;
-    align-items: center;
+  .navbar-container {
+    width: 100%;
     justify-content: space-between;
-    margin-right: 5rem;
-    /* background-color: antiquewhite; */
-    
   }
 
-  .nav-items a{
-    cursor: pointer;
-    text-decoration: none;
+  .logo-image {
+    height: 80px;
   }
 
-  .nav-items li:hover{
-    transform: scale(1.2);
-    transition: 0.3s;
+  .mobile-menu-button {
+    display: block;
   }
 
-  .nav-items li{
-    margin-right: 3rem;
-    margin: 0 2rem;
-    font-size: 15px;
-    font-weight: 500;
-    color: white;
-
+  .navitems-container {
+    width: 100%;
+    display: none;
   }
+
+  .navitems-container.active {
+    display: block;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .nav-items li {
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* For smaller mobile devices */
+@media screen and (max-width: 480px) {
+  .logo-image {
+    height: 60px;
+  }
+
+  .nav-items li {
+    font-size: 14px;
+  }
+}
