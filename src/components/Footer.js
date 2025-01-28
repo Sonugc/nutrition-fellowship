@@ -30,14 +30,14 @@ function Footer() {
           <div className="footer-social">
             <h4>Get in Touch</h4>
             <div className="social-icons">
-              <a className="facebook" href="https://www.facebook.com/__nutfellowship/" target="_blank" rel="noopener noreferrer">
+              <a className="facebook" href="https://www.facebook.com/profile.php?id=61572729923914" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a className="instagram" href="https://www.instagram.com/__nutfellowship/" target="_blank" rel="noopener noreferrer">
+              <a className="instagram" href="https://www.instagram.com/nutfellowship/?hl=en" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a className="linkedin" href="https://www.linkedin.com/__linkedin/" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin-in"></i>
+              <a className="linkedin" href="https://x.com/nutfellowship" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-twitter"></i>
               </a>
             </div>
           </div>

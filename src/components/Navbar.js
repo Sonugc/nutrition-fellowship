@@ -26,8 +26,8 @@ function Navbar() {
         <div className={`navitems-container ${isOpen ? 'active' : ''}`}>
           <ul className='nav-items'>
             <a href='#aboutus'><li>About Us</li></a>
-            <a href='#events'><li>Events</li></a>
-            <a href='#specialinitiatives'><li>Special Initiatives</li></a>
+            <a href='#events'><li>Events and Updates  </li></a>
+            <a href='#specialinitiatives'><li>Initiatives</li></a>
             <a href='#shareyourthoughts'><li>Share Your Thoughts</li></a>
             <a href='#contact'><li>Contact Us</li></a>
           </ul>
