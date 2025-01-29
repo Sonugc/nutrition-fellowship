@@ -8,11 +8,10 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-above">
           <div className="footer-description">
-            <img src="/nutrition_logo33.png" className="footer-logo" alt="Company Logo" />
+            <img src="/Nutrition_logo33.png" className="footer-logo" alt="Company Logo" />
             <p>
               Nutrition Fellowship for Nepal aims to unite three generations of stakeholders 
-              from Nepal and around the world—combining experience, innovation, and passion 
-              to accelerate the fight against undernutrition in Nepal.
+              from Nepal and around the world.
             </p>
           </div>
 
