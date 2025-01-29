@@ -1,28 +1,57 @@
 import React from 'react';
 import './Repository.css';
+import { useNavigate } from 'react-router-dom';
 
 const Repository = () => {
+    const navigate = useNavigate();
+
+    // Helper function to handle navigation
+    const handleNavigation = (path) => {
+        navigate(path);
+    };
+
     const documents = [
         {
             category: 'Newsletter',
             links: [
-                { title: ' Newsletter', url: 'https://example.com/newsletter-jan-2025' },
-                // { title: 'December 2024 Newsletter', url: 'https://example.com/newsletter-dec-2024' },
+                { 
+                    title: 'Nutrition Leaders : Profiles',
+                    path: '/profile'
+                },
             ],
         },
         {
-            category: 'Policy Documents',
+            category: 'Policies and Plans',
             links: [
-                { title: 'Nutrition Policy 2025', url: 'https://example.com/nutrition-policy-2025' },
-                // { title: 'Food Safety Guidelines', url: 'https://example.com/food-safety-guidelines' },
+                {
+                    title: 'Nutrition Policy 2025',
+                    path: '/policy2025'
+                },
             ],
         },
         {
-            category: 'Research Papers',
+            category: 'Blogs',
             links: [
-                { title: 'Malnutrition Studies 2024', url: 'https://example.com/malnutrition-studies-2024' },
-                { title: 'AI in Nutrition', url: 'https://example.com/ai-in-nutrition' },
+                {
+                    title: 'Nutrition Fellowship for Nepal : 2nd Meet',
+                    path: '/nfn2ndmeetblog'
+                },
+                {
+                    title: 'Internship at Nutrition Rehabilitation Center',
+                    path: '/nrcinternblog'
+                },
             ],
+        },
+        {
+            category: 'Research',
+            links: [
+                {
+                    title: 'AI in Nutrition',
+                    path: '/aiinnutrition'
+                },
+            ],
+            
+            
         },
     ];
 
@@ -35,9 +64,12 @@ const Repository = () => {
                     <ul className="document-list">
                         {docCategory.links.map((link, idx) => (
                             <li key={idx} className="document-item">
-                                <a href={link.url} target="_blank" rel="noopener noreferrer" className="document-link">
+                                <button 
+                                    onClick={() => handleNavigation(link.path)}
+                                    className="document-link"
+                                >
                                     {link.title}
-                                </a>
+                                </button>
                             </li>
                         ))}
                     </ul>

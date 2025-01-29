@@ -14,7 +14,7 @@ function Navbar() {
       <nav className="navbar">
         <div className='navbar-container'>
           <div className="navbar-logo">
-            <img src='/Nutrition_logo333.png' alt="Nutrition" className="logo-image" />
+            <img src='/nutrition_logo333.png' alt="Nutrition" className="logo-image" />
           </div>
 
           {/* Hamburger menu button for mobile */}
@@ -25,7 +25,7 @@ function Navbar() {
 
         <div className={`navitems-container ${isOpen ? 'active' : ''}`}>
           <ul className='nav-items'>
-            <a href='#aboutus'><li>About Us</li></a>
+            <a href='#documents'><li>Documents</li></a>
             <a href='#events'><li>Events and Updates  </li></a>
             <a href='#specialinitiatives'><li>Initiatives</li></a>
             <a href='#shareyourthoughts'><li>Share Your Thoughts</li></a>
