@@ -16,13 +16,13 @@ function Footer() {
           </div>
 
           <div className="footer-links">
-            <h4>Navigation Links</h4>
+            <h4>Useful Links</h4>
             <ul>
-              <li><a href="#about-us">About Us</a></li>
-              <li><a href="#events">Events</a></li>
+              <li><a href="#about-us">Nutrition Trends of Nepal</a></li>
+              {/* <li><a href="#events">Events</a></li>
               <li><a href="#special-initiatives">Special Initiatives</a></li>
               <li><a href="#place-your-thoughts">Place Your Thoughts</a></li>
-              <li><a href="#contact-us">Contact Us</a></li>
+              <li><a href="#contact-us">Contact Us</a></li> */}
             </ul>
           </div>
 

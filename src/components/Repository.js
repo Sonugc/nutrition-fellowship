@@ -15,7 +15,7 @@ const Repository = () => {
             category: 'Newsletter',
             links: [
                 { 
-                    title: 'Nutrition Leaders : Profiles',
+                    title: 'Nutrition Profiles',
                     path: '/profile'
                 },
             ],
@@ -56,8 +56,8 @@ const Repository = () => {
     ];
 
     return (
-        <div className="repository-container">
-            <h2 className="repository-title">Document Repository</h2>
+        <div className="repository-container" id='documents'>
+            <h2 className="repository-title">RESOURCES/PUBLICATIONS</h2>
             {documents.map((docCategory, index) => (
                 <div key={index} className="repository-category">
                     <h3 className="category-title">{docCategory.category}</h3>

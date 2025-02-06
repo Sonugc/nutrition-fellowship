@@ -2,12 +2,12 @@ import React from 'react';
 
 const Thoughts = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8" id='contact'>
       <div className="bg-gray-50 rounded-lg p-6 sm:p-8 lg:p-10 text-center">
         {/* Center container for the text */}
         <div className="max-w-2xl mx-auto">
           <h1 className="text-2xl sm:text-3xl font-semibold text-green-800 mb-2">
-            PLACE YOUR THOUGHTS
+            CONTACT US
           </h1>
           <p className="text-lg sm:text-xl text-green-800 mb-6">
             We would love to hear feedbacks and questions from your end.
