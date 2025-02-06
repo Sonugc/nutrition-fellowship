@@ -3,7 +3,7 @@ import React from 'react'
 
 function Aboutus() {
   return (
-    <div className='Aboutus-container'>
+    <div className='Aboutus-container' id='aboutus'>
       <p className='Aboutus-top'>WHAT IS OUR VALUE PROPOSITION?</p>
       <div className='Aboutus-content'>
       <p className='aboutus-para1'>We unite three generations of stakeholders from Nepal and around the world—combining experience, innovation, and passion to accelerate the fight against undernutrition in Nepal.

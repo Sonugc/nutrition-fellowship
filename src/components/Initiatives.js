@@ -3,8 +3,8 @@ import './Initiatives.css';
 
 const Initiatives = () => {
   return (
-    <div className="initiatives-container">
-      <h2 className="initiatives-title">Initiatives</h2>
+    <div className="initiatives-container" id='initiatives'>
+      <h2 className="initiatives-title">PROJECTS AND INITIATIVES</h2>
       <div className="initiatives-list">
         <div className="initiative-item">
           <h3>GEN-N<br />INITIATIVES</h3>

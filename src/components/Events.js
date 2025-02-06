@@ -14,7 +14,7 @@ function Events() {
   };
 
   return (
-    <div className='events-container'>
+    <div className='events-container' id='events'>
       <p className='events-top'>EVENTS AND UPDATES</p>
       <p className='events-header'>Recent Events</p>
       <div className='events-card'>

@@ -47,7 +47,7 @@ const Coverpage = () => {
 
 // Separate component for pillar buttons to maintain consistency
 const PillarButton = ({ text }) => (
-  <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base lg:text-xl font-bold text-[#135127] hover:bg-[#f0f0f0] transition-colors cursor-pointer">
+  <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 rounded-full flex items-center justify-center text-xs sm:text-sm md:text-base lg:text-xl font-bold text-[#135127] hover:bg-[#BAD8BB] transition-colors cursor-pointer">
     {text}
   </div>
 );
