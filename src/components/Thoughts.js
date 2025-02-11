@@ -83,7 +83,7 @@ const Thoughts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const { firstName, lastName, email, message } = formData;
-    const mailtoLink = `mailto:your-nutfellowship@gmail.com?subject=Contact%20Us%20Form&body=Name:%20${firstName}%20${lastName}%0AEmail:%20${email}%0A%0A${message}`;
+    const mailtoLink = `mailto:nutfellowship@gmail.com?subject=Contact%20Us%20Form&body=Name:%20${firstName}%20${lastName}%0AEmail:%20${email}%0A%0A${message}`;
     window.location.href = mailtoLink;
   };
 
