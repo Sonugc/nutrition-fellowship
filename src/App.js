@@ -32,11 +32,11 @@ function App() {
                             <Coverpage/>
                             <Vision/>
                             <Aboutus/>
+                            <Initiatives/>
                             <Repository/>
                             <Events/>
                             <NextEvent/>
-                            <Announcements/>
-                            <Initiatives/>
+                            <Announcements/>                          
                             <Thoughts/>
                             <Footer/>
                     </div>
