@@ -58,6 +58,17 @@ const data = [
     img: '/Recentevents/CAFODAT data camp.jpg',
     review: 'Nutrition Data Camp : at CAFODAT College',
   },
+  {
+    date: '01/17/2025',
+    img: '/Recentevents/Meet_and_Greet_12.jpg',
+    review: '2nd Nutrition Fellowship for Nepal Meet',
+  },
+  {
+    date: '01/20/2025',
+    img: '/Recentevents/DC-mmihs1.jpg',
+    review: 'Nutrition Data Camp : at MMIHS',
+  },
+  
 ]
 
 export default Events
