@@ -12,8 +12,12 @@ const Repository = () => {
 
     const documents = [
         {
-            category: 'Newsletter',
+            category: 'Reports',
             links: [
+                { 
+                    title: 'Newsletter',
+                    path: '/profile'
+                },
                 { 
                     title: 'Nutrition Profiles',
                     path: '/profile'

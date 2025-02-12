@@ -76,6 +76,8 @@ const Thoughts = () => {
     message: ''
   });
 
+  const [submitStatus, setSubmitStatus] = useState('');
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -85,10 +87,19 @@ const Thoughts = () => {
     const { firstName, lastName, email, message } = formData;
     const mailtoLink = `mailto:nutfellowship@gmail.com?subject=Contact%20Us%20Form&body=Name:%20${firstName}%20${lastName}%0AEmail:%20${email}%0A%0A${message}`;
     window.location.href = mailtoLink;
+    setSubmitStatus('Form submitted! Please select your email client to send the message.');
+    
+    // Optional: Clear form after submission
+    setFormData({
+      firstName: '',
+      lastName: '',
+      email: '',
+      message: ''
+    });
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8" id='contact'>
+    <div className="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8" id="contact">
       <div className="bg-gray-50 rounded-lg p-6 sm:p-8 lg:p-10 text-center">
         <div className="max-w-2xl mx-auto">
           <h1 className="text-2xl sm:text-3xl font-semibold text-green-800 mb-2">
@@ -100,6 +111,11 @@ const Thoughts = () => {
         </div>
         
         <div className="max-w-md mx-auto bg-green-100/80 rounded-lg p-6">
+          {submitStatus && (
+            <div className="mb-4 p-2 bg-green-200 text-green-800 rounded">
+              {submitStatus}
+            </div>
+          )}
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div>
               <input
@@ -165,4 +181,3 @@ const Thoughts = () => {
 };
 
 export default Thoughts;
-
