@@ -1,9 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-    margin-top: 100px; /* Adjust for desired gap */
-  }
-  html {
-    scroll-padding-top: 100px;
-  }
