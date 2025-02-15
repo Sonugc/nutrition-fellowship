@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Topbar from './components/Topbar';
 import Navbar from './components/Navbar';
+import CoverpageLeft from './components/CoverpageLeft';
+import CoverpageRight from './components/CoverpageRight';
 import Coverpage from'./components/Coverpage';
 import Vision from './components/Vision';
 import Aboutus from './components/Aboutus';
@@ -22,16 +25,21 @@ function App() {
   return (
     <>
         <Router>
-        
+            <Topbar />
+            <Navbar />
+            
             <Routes>
                
                 <Route path="/" element={
                         
                     <div>
-                            <Navbar/>
-                            <Coverpage/>
-                            <Vision/>
-                            <Aboutus/>
+                        <div className='flex'>
+                            <div className='basis-2/3'>  <CoverpageLeft/></div>
+                            <div className='basis-1/3'><CoverpageRight/></div>
+                         
+                           
+                        </div>
+                      
                             <Initiatives/>
                             <Repository/>
                             <Events/>
