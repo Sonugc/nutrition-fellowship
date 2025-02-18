@@ -74,7 +74,7 @@ const CombinedCoverAbout = () => {
     }, 5000); // 5 seconds per slide
 
     return () => clearInterval(timer);
-  }, []);
+  }, [totalSlides]);
 
   const AboutUsContent = () => (
     <div className="w-full h-screen flex items-center">
