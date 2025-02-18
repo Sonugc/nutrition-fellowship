@@ -22,7 +22,7 @@
  }
  
  .events-card {
-   width: 82%;
+   width: 100%;
    margin: 0px 22px;
    padding: 30px 90px 30px 90px;
    background: linear-gradient(135deg, #bad7bc 0%, #537f53);
