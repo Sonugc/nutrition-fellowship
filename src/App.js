@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Topbar from './components/Topbar';
 import Navbar from './components/Navbar';
+// import CombinedCoverAbout from './components/CombinedCoverAbout';
 import CoverpageLeft from './components/CoverpageLeft';
 import CoverpageRight from './components/CoverpageRight';
 import Coverpage from'./components/Coverpage';
@@ -34,17 +35,19 @@ function App() {
                         
                     <div>
                         <div className='flex'>
+                            {/* <div className='basis-2/3'><CombinedCoverAbout/></div> */}
                             <div className='basis-2/3'>  <CoverpageLeft/></div>
-                            <div className='basis-1/3'><CoverpageRight/></div>
-                         
-                           
+                            <div className='basis-1/3'><CoverpageRight/></div>                                              
                         </div>
-                      
+                            {/* <Aboutus/> */}
                             <Initiatives/>
                             <Repository/>
                             <Events/>
-                            <NextEvent/>
-                            <Announcements/>                          
+                            <div className='flex mt-5'>
+                                <NextEvent/>
+                                <Announcements/>
+                            </div>
+                                                      
                             <Thoughts/>
                             <Footer/>
                     </div>
