@@ -18,7 +18,8 @@ function Footer() {
           <div className="footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#about-us">Nutrition Trends of Nepal</a></li>
+              <li><a href="https://nutrition-dashboard-vision.vercel.app/">Nutrition Dashboard</a></li>
+              <li><a href="http://www.nnfsp.gov.np/">Nepal Nutrition and Food Security Portal</a></li>
               {/* <li><a href="#events">Events</a></li>
               <li><a href="#special-initiatives">Special Initiatives</a></li>
               <li><a href="#place-your-thoughts">Place Your Thoughts</a></li>
