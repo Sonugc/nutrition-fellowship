@@ -61,6 +61,7 @@ const CombinedCoverAbout = () => {
   
   const images = [
     "/ImageSlider/5generations.jpeg",
+    // "/ImageSlider/Cover-collage.png",
     "/ImageSlider/3students.jpeg"
   ];
 
@@ -175,7 +176,7 @@ const CombinedCoverAbout = () => {
           <img
             src={img}
             alt={`Slide ${index + 1}`}
-            className="w-full h-full object-cover"
+            className="max-w-full max-h-full object-contain"
           />
         </div>
       ))}
