@@ -34,7 +34,7 @@ const Initiatives = () => {
       <div className="flex flex-wrap justify-around items-center gap-4">
         <div className="bg-[#bad8bb] text-[#265728] p-5 text-center w-64 shadow-lg transition-transform transform hover:scale-105">
           <h3 className="text-lg font-semibold mb-3 leading-relaxed">GEN-N<br />INITIATIVES</h3>
-          <a href="#navbar" className="inline-block mt-3 px-3 py-1 text-[#265728] rounded hover:scale-105 transition-transform">Click Here</a>
+          <a href="https://drive.google.com/drive/folders/1_PZuUUcI1jwHlIVtsgN01VcXAdH8B8PO?usp=drive_link" className="inline-block mt-3 px-3 py-1 text-[#265728] rounded hover:scale-105 transition-transform">Click Here</a>
         </div>
         <div className="bg-[#bad8bb] text-[#265728] p-5 text-center w-64 shadow-lg transition-transform transform hover:scale-105">
           <h3 className="text-lg font-semibold mb-3 leading-relaxed">ADVOCACY <br /> AND <br />CAMPAIGNS</h3>

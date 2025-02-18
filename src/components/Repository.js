@@ -205,7 +205,7 @@ const Repository = () => {
                 { 
                     title: 'Nutrition Profiles',
                     path: '/profile',
-                    pdfUrl: '/pdfs/nutrition-profiles.pdf'
+                    pdfUrl: '/document_pdfs/Stunting profile.pdf'
                 },
             ],
         },
