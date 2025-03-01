@@ -23,6 +23,12 @@ const Navbar = () => {
               ABOUT US
             </a>
             <a 
+              href="#initiatives" 
+              className="text-white text-[14px] hover:text-[16px] transition-all duration-200"
+            >
+              PROJECTS AND INITIATIVES
+            </a>
+            <a 
               href="#documents" 
               className="text-white text-[14px] hover:text-[16px] transition-all duration-200"
             >
@@ -35,13 +41,7 @@ const Navbar = () => {
               EVENTS AND UPDATES
             </a>
             <a 
-              href="#initiatives" 
-              className="text-white text-[14px] hover:text-[16px] transition-all duration-200"
-            >
-              INITIATIVES
-            </a>
-            <a 
-              href="#contact" 
+              href="#thoughts" 
               className="text-white text-[14px] hover:text-[16px] transition-all duration-200"
             >
               CONTACT US
@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className="md:hidden absolute right-4">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 focus:outline-none transition-colors duration-200"
+              className="text-white focus:outline-none transition-colors duration-200"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

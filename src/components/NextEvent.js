@@ -61,7 +61,7 @@ import React from 'react';
 
 const Event = ({ name, date, description }) => {
   return (
-    <div className="bg-[#BAD8BB] p-4 my-4 rounded-lg shadow-md">
+    <div className="bg-[#bad8bb] p-4 my-4 rounded-lg shadow-md">
       <p className="text-gray-800 font-bold text-base mb-0.5">{name}</p>
       <p className="text-gray-600 text-base mb-0.5">Date: {date}</p>
       <p className="text-gray-600 text-base mb-0.5">
