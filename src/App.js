@@ -34,19 +34,28 @@ function App() {
                 <Route path="/" element={
                         
                     <div>
-                        <div className='flex'>
-                            {/* <div className='basis-2/3'><CombinedCoverAbout/></div> */}
-                            <div className='basis-2/3'>  <CoverpageLeft/></div>
-                            <div className='basis-1/3'><CoverpageRight/></div>                                              
+                        <div className="flex flex-col md:flex-row">
+                            <div className="md:basis-2/3 w-full">  
+                                <CoverpageLeft />
+                            </div>
+                            <div className="md:basis-1/3 w-full">  
+                                <CoverpageRight />
+                            </div>                                              
                         </div>
+
                             {/* <Aboutus/> */}
                             <Initiatives/>
                             <Repository/>
                             <Events/>
-                            <div className='flex mt-5'>
-                                <NextEvent/>
-                                <Announcements/>
+                            <div className="flex flex-col md:flex-row mt-5">
+                                <div className="md:w-1/2">
+                                    <NextEvent />
+                                </div>
+                                <div className="md:w-1/2">
+                                    <Announcements />
+                                </div>
                             </div>
+
                                                       
                             <Thoughts/>
                             <Footer/>
